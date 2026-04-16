@@ -21,6 +21,4 @@ A professional runway wind component calculator built using React Native (Expo).
 
 For reference only. Always verify with official ATIS/METAR.
 
-## 📸 Screenshots
 
-(Add your app screenshots here)
