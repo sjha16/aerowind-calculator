@@ -9,7 +9,7 @@ A professional runway wind component calculator built using React Native (Expo).
 - Best runway suggestion
 - Safety alerts (crosswind & tailwind limits)
 - Unit toggle (Knots / km/h)
-- Real-time input calculation
+- Real-time calculation
 - Aviation-style radar UI
 
 ## 📱 Tech Stack
@@ -19,6 +19,4 @@ A professional runway wind component calculator built using React Native (Expo).
 
 ## ⚠️ Disclaimer
 
-For reference only. Always verify with official ATIS/METAR.
-
-
+For training/reference only. Always verify with official ATIS/METAR.
