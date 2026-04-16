@@ -1,35 +1,75 @@
-<<<<<<< HEAD
-# ✈️ AeroWind – ATC Wind Calculator
+# ✈️ AeroWind – Runway Wind Component Calculator
 
-A professional runway wind component calculator built using React Native (Expo).
+A professional **ATC-focused mobile application** built with React Native (Expo) to calculate:
+
+* Headwind / Tailwind components
+* Crosswind component (Left / Right)
+* Runway vs Wind alignment visualization
+
+---
+
+## 📱 Screenshots
+
+![Main](assets/screenshot)
+
+
+
+---
 
 ## 🚀 Features
 
-- Headwind / Tailwind calculation
-- Crosswind magnitude and direction
-- Best runway suggestion
-- Safety alerts (crosswind & tailwind limits)
-- Unit toggle (Knots / km/h)
-- Real-time input calculation
-- Aviation-style radar UI
+* 🎯 Real-time wind component calculation
+* 🧭 Interactive compass visualization
+* ⚠️ Crosswind & tailwind alerts
+* 🔁 Knots ↔ Km/h toggle
+* 📡 ATC-style clean UI
 
-## 📱 Tech Stack
+---
 
-- React Native (Expo)
-- JavaScript
+## 🧠 Calculations
 
-## ⚠️ Disclaimer
+* Runway Heading = RWY × 10
+* Headwind = V × cos(Δθ)
+* Crosswind = V × sin(Δθ)
 
-For reference only. Always verify with official ATIS/METAR.
+---
 
+## 🛠️ Tech Stack
 
-=======
-> Why do I have a folder named ".expo" in my project?
-The ".expo" folder is created when an Expo project is started using "expo start" command.
-> What do the files contain?
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
-> Should I commit the ".expo" folder?
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
->>>>>>> 10f0490c (Added .gitignore and removed unnecessary files)
+* React Native
+* Expo
+* JavaScript
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npx expo start
+```
+
+---
+
+## 🎯 Use Case
+
+Designed for:
+
+* Air Traffic Controllers
+* Pilots
+* Aviation enthusiasts
+
+---
+
+## 📌 Author
+
+**Sumit Jha**
+ATC | Developer | Aviation Enthusiast
+
+---
+
+## ⭐ Future Improvements
+
+* Live METAR integration
+* Runway auto-suggestion
+* Airport database integration
