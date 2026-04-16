@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "AeroWind",
+    "slug": "aerowind",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "aerowind",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0C10"
+    },
+    "android": {
+      "package": "com.aerowind.app"
+    },
+    "web": {
+      "output": "single"
+    }
+  }
+}
