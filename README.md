@@ -11,7 +11,7 @@ A professional **ATC-focused mobile application** built with React Native (Expo)
 ## 📱 Screenshots
 
 ![Main](assets/Screenshot.jpg)
-![Result](assests/Screenshot_result.jpg)
+![Result](assets/Screenshot_result.jpg)
 
 
 
